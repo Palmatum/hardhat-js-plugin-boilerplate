@@ -1,0 +1,37 @@
+{
+  "name": "hardhat-js-plugin-boilerplate",
+  "version": "1.0.0",
+  "description": "Hardhat plugin boilerplate for Javascript",
+  "main": "index.js",
+  "author": "Prateek",
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "hardhat",
+    "hardhat-plugin"
+  ],
+  "scripts": {
+    "test": "mocha --exit --recursive 'test/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palmatum/hardhat-js-plugin-boilerplate.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Palmatum/hardhat-js-plugin-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Palmatum/hardhat-js-plugin-boilerplate#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "hardhat": "^2.8.4",
+    "mocha": "^9.2.0",
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "hardhat": "^2.8.4"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
