@@ -2,8 +2,6 @@
   "name": "hardhat-js-plugin-boilerplate",
   "version": "1.0.0",
   "description": "Hardhat plugin boilerplate for Javascript",
-  "main": "index.js",
-  "author": "Prateek",
   "keywords": [
     "ethereum",
     "smart-contracts",
