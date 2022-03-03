@@ -18,6 +18,10 @@ To start working on your project, just run
 ```bash
 npm install
 ```
+or
+```bash
+npm i
+```
 
 ## Plugin development
 
@@ -50,7 +54,3 @@ plugin users.
 
 Take a look at `README-TEMPLATE.md` for an example of what a Hardhat plugin's
 README should look like.
-
-## Migrating from Buidler?
-
-Take a look at [the migration guide](MIGRATION.md)!
