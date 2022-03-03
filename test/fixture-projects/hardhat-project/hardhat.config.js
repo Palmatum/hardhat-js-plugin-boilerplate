@@ -1,3 +1,4 @@
+// We load the plugin here.
 require("../../../src/index");
 
 module.exports = {
