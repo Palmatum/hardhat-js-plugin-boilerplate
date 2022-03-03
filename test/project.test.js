@@ -5,25 +5,25 @@ const ExampleHardhatRuntimeEnvironmentField = require("../src/ExampleHardhatRunt
 
 const useEnvironment = require("./helpers");
 
-describe("Integration tests examples", function() {
-  describe("Hardhat Runtime Environment extension", function() {
+describe("Integration tests examples", function () {
+  describe("Hardhat Runtime Environment extension", function () {
     useEnvironment("hardhat-project");
-    it("Should add the example field", function() {
+    it("Should add the example field", function () {
       assert.instanceOf(
         this.hre.example,
         ExampleHardhatRuntimeEnvironmentField
       );
     });
 
-    it("The example filed should say hello", function() {
+    it("The example filed should say hello", function () {
       assert.equal(this.hre.example.sayHello(), "hello");
     });
   });
 
-  describe("HardhatConfig extension", function() {
+  describe("HardhatConfig extension", function () {
     useEnvironment("hardhat-project");
 
-    it("Should add the newPath to the config", function() {
+    it("Should add the newPath to the config", function () {
       assert.equal(
         this.hre.config.paths.newPath,
         path.join(process.cwd(), "asd")

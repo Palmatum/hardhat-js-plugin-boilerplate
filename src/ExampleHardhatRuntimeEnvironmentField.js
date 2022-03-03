@@ -1,7 +1,7 @@
 class ExampleHardhatRuntimeEnvironmentField {
-    sayHello() {
-        return "hello";
-    }
+  sayHello() {
+    return "hello";
+  }
 }
 
 module.exports = ExampleHardhatRuntimeEnvironmentField;

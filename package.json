@@ -8,8 +8,16 @@
     "hardhat",
     "hardhat-plugin"
   ],
+  "files": [
+    "dist/src/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
-    "test": "mocha --exit --recursive 'test/**/*.test.js'"
+    "test": "mocha --exit --recursive 'test/**/*.test.js'",
+    "prepublishOnly": "npm run build",
+    "lint": "prettier --write 'src/**/*.{js, ts}' 'test/**/*.{js, ts}'"
   },
   "repository": {
     "type": "git",
